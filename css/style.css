@@ -11,12 +11,12 @@ body {
 
 /* Utilities */
 .container-big {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .container-small {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -34,6 +34,9 @@ body {
     width: calc((100% / 3) - 40px);
     margin:0 20px ;
     border: 1px solid #D0D0D3;
+
+}
+.no-border-bottom {
     border-bottom: hidden;
 }
 
@@ -64,6 +67,11 @@ body {
 .p-100 {
     padding-top: 250px;
 }
+
+.m-10 {
+    margin: 10px 0;
+}
+
 .text-center {
     text-align: center;
 }
@@ -72,6 +80,11 @@ body {
     text-align: right;
 }
 
+.text-grey {
+    font-weight: 600;
+    font-size: 16px;
+    color: #637381;
+}
 .btn {
     color: white;
 }
@@ -108,7 +121,7 @@ p {
 body hr {
     border: 0.5px solid #DCDCDE;
     width: 50px;
-    margin: 0 30px;
+    margin-bottom: 30px;
 }
 
 footer hr {
@@ -146,7 +159,7 @@ li, .top-menu {
     background-color: #B4D0E7;
 }
 #jumbotron .content h1 {
-    font-size: 74px;
+    font-size: 78px;
     padding: 20px 0;
 }
 
@@ -161,22 +174,87 @@ li, .top-menu {
 }
 
 /* Main */
+ .full-page .container-small h2 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 60px;
+    margin-left: 20px;
+ }
 
+ .full-page {
+    padding-left: 20px;
+ }
 
-/* Section */
-/* 
-icon circle: <i class="far fa-circle"></i>
-icon user: <i class="far fa-user"></i>
-icon user+ : <i class="fas fa-user-plus"></i>
-icon building: <i class="far fa-building"></i>
-icon folder: <i class="far fa-folder"></i>
-icon smile: <i class="far fa-smile"></i>
-icon pen: <i class="fas fa-pencil-alt"></i>
-icon checked: <i class="fas fa-check"></i>
-icon faq arrow: <i class="fas fa-chevron-down"></i>
-*/
+ .full-page span:nth-child(2) {
+    padding: 20px;
+ }
 
+  .circle-blue {
+    text-shadow: -1px 0 #0061FF, 0 1px #0061FF, 1px 0 #0061FF, 0 -1px #0061FF;
+    color: #0061FF;
+ }
 
+ .plan, .professional-plan, 
+ .standard-plan, .advanced-plan {
+    margin-bottom: 30px;
+    font-weight: 600;
+ }
+
+ .plan {
+     font-size: 18px;
+ }
+
+ .full-page .container-small h3 {
+     font-size: 18px;
+     font-weight: normal;
+ }
+
+ .full-page .container-small h4 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+ .full-page .container-small .btn-blue {
+    padding: 10px 42px;
+ }
+
+.full-page .col-count {
+    padding: 15px 28px;
+    line-height: 40px;
+}
+.info {
+    padding: 30px 0;
+}
+
+.tobuy {
+    line-height: 80px;
+}
+
+.tobuy a {
+    color: #0061FF;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.tobuy .btn:hover {
+    background-color: #3e87fc;
+}
+
+.price {
+    font-weight: bolder;
+}
+.advantages p {
+    margin-bottom:20px;
+    font-weight: 600;
+}
+.fa-check {
+    color: #0061FF;
+}
+.moved {
+    padding-left: 20px;
+}
+
+/* icon faq arrow: <i class="fas fa-chevron-down"></i> */
 /* Footer */
 footer {
     height: 400px;
