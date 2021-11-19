@@ -1,0 +1,118 @@
+/* Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utilities */
+.container-big {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.w-20  {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.btn {
+    color: white;
+}
+.bg-lightblue {
+    background-color: #B4D0E7;
+}
+
+.btn-blue {
+    background-color: #0061FF;
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+}
+
+.btn-tight {
+    padding: 10px 15px;
+}
+
+.btn-large {
+    padding: 10px 25px;
+}
+
+body hr {
+    border: 1px solid #DCDCDE;
+    width: 100%;
+}
+
+footer hr {
+    border: 1px solid white;
+    width: 20%;
+}
+/* Header */
+
+/* ---logo--- */
+#logo {
+
+}
+
+/* ---jumbotron--- */
+/* icon arrow: <i class="fas fa-arrow-down"></i> */
+#jumbotron {
+
+}
+
+/* Main */
+
+
+/* Section */
+/* 
+icon circle: <i class="far fa-circle"></i>
+icon user: <i class="far fa-user"></i>
+icon user+ : <i class="fas fa-user-plus"></i>
+icon building: <i class="far fa-building"></i>
+icon folder: <i class="far fa-folder"></i>
+icon smile: <i class="far fa-smile"></i>
+icon pen: <i class="fas fa-pencil-alt"></i>
+icon checked: <i class="fas fa-check"></i>
+icon faq arrow: <i class="fas fa-chevron-down"></i>
+*/
+
+
+/* Footer */
+footer {
+    height: 400px;
+    background-color: black;
+    color: white;
+}
