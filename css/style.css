@@ -377,63 +377,63 @@ li, .top-menu {
 
 #sponsor {
     margin-top: 50px;
-    height: 600px;
+    max-height: 500px;
     position: relative;
 }
 
 .green {
     float: left;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #A2D39B;
 }
 
 .azure {
     float: left;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #0093CE;
 }
 
 .bordeaux {
     float: left;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #61082B;
 }
 
 .red {
     float: left;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #FF1C1C;
 }
 
 .darkblue {
     float: right;
-    height: 300px;
-    width: 300px;;
+    height: 250px;
+    width: 250px;
     background-color: #0D2481;
 }
 
 .lightblue {
     float: right;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #B4D0E7;
 }
 
 .yellow {
     float: right;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #FFD830;
 }
 
 .bloodred {
     float: right;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #D5001F;
 }
 #sponsor .w-30 img {
@@ -449,19 +449,26 @@ li, .top-menu {
 #sponsor .w-40 img {
     position: relative;
     top: 50px;
-    left: 20px;
+    left: 50px;
     max-width: 250px;
 }
 #sponsor hr {
     margin-top: 10%;
-    margin-left: 15px;
+    margin-left: 50px;
 }
 
-article, address {
+article {
     margin-top: 5%;
-    padding: 30px;
+    padding: 0 50px 0 50px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
+    font-style: normal;
+}
+address {
+    margin-top: 20px;
+    padding: 0 50px 0 50px;
+    font-weight: 500;
+    font-size: 16x;
     font-style: normal;
 }
 
@@ -470,7 +477,6 @@ article, address {
     font-size: 50px;
     font-weight: bolder;
 }
-
 .tryfree {
     position: relative;
 }
@@ -488,10 +494,36 @@ article, address {
     top: 60%;
     right: 0;
 }
-/* icon faq arrow: <i class="fas fa-chevron-down"></i> */
+#faq {
+    height: 650px;
+    background-color: white;
+    padding-top: 500px;
+}
+#faq hr {
+    border: 1px solid #DCDCDE;
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px 0;
+}
+#faq h3 {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+#faq p {
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+
+#faq i {
+padding-left: 35%;
+font-size: 20px;
+}
 /* Footer */
-footer {
-    height: 400px;
+.bottom-menu {
+    margin-top: 500px;
+    height: 500px;
     background-color: black;
     color: white;
 }
