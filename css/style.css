@@ -31,13 +31,13 @@ body {
 }
 
 .col-count {
-    width: calc((100% / 3) - 40px);
+    width: calc(100% / 3 - 40px);
     margin:0 20px ;
     border: 1px solid #D0D0D3;
-
 }
-.no-border-bottom {
-    border-bottom: hidden;
+
+.col-margin {
+    margin: 0 20px;
 }
 
 .w-20  {
@@ -135,6 +135,7 @@ footer hr {
     vertical-align: text-bottom;
     padding-left: 20px;
 }
+
 .nav-bar {
     height: 80px;
     line-height: 80px;
@@ -142,7 +143,7 @@ footer hr {
     background-color: white;
     position: fixed;
     top: 0;
-    width: 100%;/
+    width: 100%;
     transition: top 0.3s;
 }
 
@@ -186,10 +187,6 @@ li, .top-menu {
     margin-left: 20px;
  }
 
- .full-page {
-    padding-left: 20px;
- }
-
  .full-page span:nth-child(2) {
     padding: 20px;
  }
@@ -209,13 +206,13 @@ li, .top-menu {
      font-size: 18px;
  }
 
- .full-page .container-small h3 {
+ .container-small h3 {
      font-size: 18px;
      font-weight: normal;
  }
 
- .full-page .container-small h4 {
-    font-size: 18px;
+ .full-page h4 {
+    font-size: 24px;
     font-weight: 800;
 }
 
@@ -227,11 +224,13 @@ li, .top-menu {
     padding: 15px 28px;
     line-height: 40px;
 }
+
 .full-page .professional-plan,
 .full-page .standard-plan, 
 .full-page .advanced-plan {
     height: 1100px;
 }
+
 .info {
     padding: 30px 0;
 }
@@ -250,13 +249,29 @@ li, .top-menu {
     background-color: #3e87fc;
 }
 
+.enterprise {
+    position: relative;
+}
+
+.contact {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.enterprise .btn:hover {
+    background-color: #3e87fc;
+}
+
 .price {
     font-weight: bolder;
 }
+
 .advantages p {
     margin-bottom:20px;
     font-weight: 600;
 }
+
 .fa-check {
     color: #0061FF;
 }
@@ -264,6 +279,65 @@ li, .top-menu {
     padding-left: 20px;
 }
 
+.enterprise {
+    border: 1px solid #D0D0D3;
+    line-height: 30px;
+}
+
+.border-bottom {
+    border-bottom: hidden;
+}
+
+.enterprise:nth-child(2) {
+    padding: 20px;
+    height: 200px;
+}
+
+.team .enterprise p,
+.team .enterprise h4,
+.team .enterprise h3,
+.team .enterprise h5 {
+    padding: 10px;
+}
+.enterprise h3 {
+    font-size: 28px;
+}
+.team {
+    margin-bottom: 150px;
+}
+.team h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#partner {
+    width: 100%;
+    height: auto;
+}
+
+.partners h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 20px;
+}
+
+.partners a  {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.partner-btn {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.partners .content {
+    padding-left: 80px;
+}
+.partners .content h3 {
+    font-size: ;
+}
 /* icon faq arrow: <i class="fas fa-chevron-down"></i> */
 /* Footer */
 footer {
