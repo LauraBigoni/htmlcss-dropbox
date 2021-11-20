@@ -44,6 +44,10 @@ body {
     width: 20%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -87,6 +91,13 @@ body {
 }
 .btn {
     color: white;
+}
+
+.bg-height {
+    height: 400px;
+}
+.bg-grey {
+    background-color: #F5F5F5;
 }
 
 .bg-lightblue {
@@ -183,7 +194,7 @@ li, .top-menu {
  .full-page .container-small h2 {
     font-size: 40px;
     font-weight: 800;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     margin-left: 20px;
  }
 
@@ -334,9 +345,6 @@ li, .top-menu {
 .partners .content {
     padding-left: 80px;
 }
-.partners .content h3 {
-    font-size: ;
-}
 
 .pic-col > img {
     max-width: 100%;
@@ -354,6 +362,131 @@ li, .top-menu {
 .buisness h4,
 .buisness .text-col {
     margin-bottom: 20px;
+}
+
+.designit .container-small h2 {
+    margin-top: 15%;
+}
+.designit a {
+    color: #0061FF;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#sponsor {
+    margin-top: 50px;
+    height: 600px;
+    position: relative;
+}
+
+.green {
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #A2D39B;
+}
+
+.azure {
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #0093CE;
+}
+
+.bordeaux {
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #61082B;
+}
+
+.red {
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #FF1C1C;
+}
+
+.darkblue {
+    float: right;
+    height: 300px;
+    width: 300px;;
+    background-color: #0D2481;
+}
+
+.lightblue {
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: #B4D0E7;
+}
+
+.yellow {
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: #FFD830;
+}
+
+.bloodred {
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: #D5001F;
+}
+#sponsor .w-30 img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 200px;
+    height: auto;
+    filter: invert(100%);
+}
+
+#sponsor .w-40 img {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    max-width: 250px;
+}
+#sponsor hr {
+    margin-top: 10%;
+    margin-left: 15px;
+}
+
+article, address {
+    margin-top: 5%;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.bg-height h3 {
+    color: #61082B;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.tryfree {
+    position: relative;
+}
+#sponsor .btn-white {
+    padding: 10px 50px;
+    color: black;
+}
+#sponsor .btn-white:hover {
+    background-color: #0061FF;
+    color: white;
+}
+.bg-height a {
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    right: 0;
 }
 /* icon faq arrow: <i class="fas fa-chevron-down"></i> */
 /* Footer */
