@@ -483,7 +483,7 @@ address {
     margin-top: 20px;
     padding: 0 50px 0 50px;
     font-weight: 600;
-    font-size: 16x;
+    font-size: 16px;
     font-style: normal;
 }
 
@@ -555,10 +555,10 @@ footer {
     margin: 1rem 0;
 }
 
-#bottom-menu ul {
+#bottom-menu h5 {
     font-size: 24px;
     font-weight: bolder;
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 .region-menu {
     margin-top: 9rem;
