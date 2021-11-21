@@ -72,6 +72,10 @@ body {
     padding-top: 200px;
 }
 
+.p100 {
+    padding-top: 130px;
+}
+
 .m-10 {
     margin: 10px 0;
 }
@@ -156,6 +160,7 @@ footer hr {
     top: 0;
     width: 100%;
     transition: top 0.3s;
+    z-index: 2;
 }
 
 .nav-bar .top-menu ul, a {
@@ -460,14 +465,14 @@ li, .top-menu {
 article {
     margin-top: 5%;
     padding: 0 50px 0 50px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     font-style: normal;
 }
 address {
     margin-top: 20px;
     padding: 0 50px 0 50px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16x;
     font-style: normal;
 }
@@ -476,6 +481,7 @@ address {
     color: #61082B;
     font-size: 50px;
     font-weight: bolder;
+    vertical-align: middle;
 }
 .tryfree {
     position: relative;
@@ -491,7 +497,7 @@ address {
 .bg-height a {
     text-decoration: none;
     position: absolute;
-    top: 60%;
+    top: 50%;
     right: 0;
 }
 #faq {
@@ -521,9 +527,27 @@ padding-left: 35%;
 font-size: 20px;
 }
 /* Footer */
-.bottom-menu {
+footer {
     margin-top: 500px;
-    height: 500px;
+    height: 600px;
     background-color: black;
     color: white;
+}
+
+#bottom-menu li {
+    display: block;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+#bottom-menu ul {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 7rem;
+}
+.region-menu {
+    margin-top: 9rem;
+    color: #999999;
 }
