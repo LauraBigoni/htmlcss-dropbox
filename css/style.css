@@ -163,7 +163,7 @@ footer hr {
     z-index: 2;
 }
 
-.nav-bar .top-menu ul, a {
+.top-menu ul, a {
     font-size: 18px;
     text-decoration: none;
     list-style-type: none;
@@ -196,6 +196,7 @@ li, .top-menu {
 }
 
 /* Main */
+/* ---plan section--- */
  .full-page .container-small h2 {
     font-size: 40px;
     font-weight: 800;
@@ -326,6 +327,7 @@ li, .top-menu {
     font-weight: normal;
 }
 
+/* ---partners section--- */
 #partner {
     max-width: 100%;
     height: auto;
@@ -351,10 +353,12 @@ li, .top-menu {
     padding-left: 80px;
 }
 
+/* ---operations section--- */
 .pic-col > img {
     max-width: 100%;
     height: auto;
 }
+
 .buisness > .col-count {
     border: none;
     line-height: 25px;
@@ -372,7 +376,12 @@ li, .top-menu {
 .designit .container-small h2 {
     margin-top: 15%;
 }
-.designit a {
+
+#link-blue h2 {
+    margin-top: 50px;
+}
+
+#link-blue a {
     color: #0061FF;
     font-size: 16px;
     text-decoration: underline;
@@ -380,6 +389,7 @@ li, .top-menu {
     margin-left: 20px;
 }
 
+/* ---sponsor section--- */
 #sponsor {
     margin-top: 50px;
     max-height: 500px;
@@ -500,6 +510,8 @@ address {
     top: 50%;
     right: 0;
 }
+
+/* ---FAQ section--- */
 #faq {
     height: 650px;
     background-color: white;
@@ -526,6 +538,7 @@ address {
 padding-left: 35%;
 font-size: 20px;
 }
+
 /* Footer */
 footer {
     margin-top: 500px;
