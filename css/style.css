@@ -153,7 +153,7 @@ footer hr {
     padding-left: 20px;
 }
 
-.nav-bar {
+#nav-bar {
     height: 80px;
     line-height: 80px;
     font-weight: 500;
@@ -166,7 +166,7 @@ footer hr {
     z-index: 1;
 }
 
-.top-menu ul, a {
+.main-menu ul, a {
     display: inline;
     font-size: 18px;
     text-decoration: none;
@@ -175,17 +175,43 @@ footer hr {
     padding-bottom: 26px;
 }
 
-li, .top-menu {
+#nav-bar li, .main-menu li {
     display: inline;
     padding: 0 20px;
 }
 
-.top-menu a:hover {
+.main-menu a:hover {
     border-bottom: 2px solid #333;
     border-radius: 1px;
 }
-.top-menu a.btn {
+.main-menu a.btn {
     border: none;
+}
+
+.sub-menu {
+    text-align: left;
+    position: fixed;
+    top: 80px;
+    right: 350px;
+    box-shadow: 0 1px 2px #d0d0d0;
+    padding-top: 10px;
+}
+
+ul.sub-menu {
+    display: none;
+    font-size: 16px;
+    background-color: white;
+}
+.main-menu > li:hover ul{
+    cursor: pointer;
+    height: 100px;
+    width: 230px;
+    display: block;
+    line-height: 40px;
+}
+ul.sub-menu li:hover{
+    background-color: #d0d0d0;
+    padding-top: 10px;
 }
 
 /* ---jumbotron--- */
