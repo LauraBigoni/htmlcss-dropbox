@@ -32,7 +32,7 @@ body {
 
 .col-count {
     width: calc(100% / 3 - 40px);
-    margin:0 20px ;
+    margin: 0 20px ;
     border: 1px solid #D0D0D3;
 }
 
@@ -93,19 +93,21 @@ body {
     font-size: 16px;
     color: #637381;
 }
-.btn {
-    color: white;
-}
 
 .bg-height {
     height: 400px;
 }
+
 .bg-grey {
     background-color: #F5F5F5;
 }
 
 .bg-lightblue {
     background-color: #B4D0E7;
+}
+
+.btn {
+    color: white;
 }
 
 .btn-blue {
@@ -130,7 +132,7 @@ body {
 }
 
 p {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 body hr {
@@ -158,12 +160,14 @@ footer hr {
     background-color: white;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-    transition: top 0.3s;
-    z-index: 2;
+    box-shadow: 0 1px 2px #d0d0d0;
+    z-index: 1;
 }
 
 .top-menu ul, a {
+    display: inline;
     font-size: 18px;
     text-decoration: none;
     list-style-type: none;
@@ -171,7 +175,7 @@ footer hr {
 }
 
 li, .top-menu {
-    display: inline-block;
+    display: inline;
     padding: 0 20px;
 }
 
@@ -191,8 +195,8 @@ li, .top-menu {
 }
 
 .fa-arrow-down {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 50px;
+    padding-top: 80px;
 }
 
 /* Main */
@@ -220,12 +224,12 @@ li, .top-menu {
  }
 
  .plan {
-     font-size: 18px;
+    font-size: 18px;
  }
 
  .container-small h3 {
-     font-size: 18px;
-     font-weight: normal;
+    font-size: 18px;
+    font-weight: normal;
  }
 
  .full-page h4 {
@@ -267,7 +271,18 @@ li, .top-menu {
 }
 
 .enterprise {
+    border: 1px solid #D0D0D3;
+    line-height: 30px;
     position: relative;
+}
+
+.team .enterprise h4 {
+    font-size: 26px;
+    font-weight: 800;
+}
+.team .enterprise h5 {
+    font-size: 16px;
+    font-weight: 800;
 }
 
 .contact {
@@ -284,21 +299,16 @@ li, .top-menu {
     font-weight: bolder;
 }
 
-.advantages p {
+.advantages h4 {
     margin-bottom:20px;
-    font-weight: 600;
 }
 
 .fa-check {
     color: #0061FF;
 }
+
 .moved {
     padding-left: 20px;
-}
-
-.enterprise {
-    border: 1px solid #D0D0D3;
-    line-height: 30px;
 }
 
 .border-bottom {
@@ -314,17 +324,11 @@ li, .top-menu {
 .team .enterprise h4,
 .team .enterprise h3,
 .team .enterprise h5 {
-    padding: 10px;
+    padding: 8px;
 }
-.enterprise h3 {
-    font-size: 28px;
-}
+
 .team {
     margin-bottom: 150px;
-}
-.team h3 {
-    font-size: 18px;
-    font-weight: normal;
 }
 
 /* ---partners section--- */
@@ -335,14 +339,14 @@ li, .top-menu {
 
 .partners h3 {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 800;
     padding-top: 10%;
     padding-bottom: 20px;
 }
 
 .partners a  {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .partner-btn {
@@ -366,19 +370,35 @@ li, .top-menu {
 }
 .buisness h2 {
     padding-top: 10%;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-.buisness h4,
-.buisness .text-col {
-    margin-bottom: 20px;
+.buisness h4  {
+    padding-bottom: 30px;
 }
 
-.designit .container-small h2 {
-    margin-top: 15%;
+.text-col {
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+.pic-col {
+    padding-left: 30px;
+}
+
+.buisness h4 {
+    font-size: 26px;
+    font-weight: 800;
 }
 
 #link-blue h2 {
-    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #link-blue a {
@@ -401,6 +421,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #A2D39B;
+    border: 1px solid transparent;
+}
+
+.green:hover {
+    transition: 2s ease;
+    border: 10px solid ;
+    border-color: #7dcc73;
 }
 
 .azure {
@@ -408,6 +435,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #0093CE;
+    border: 1px solid transparent;
+}
+
+.azure:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #0073CE;
 }
 
 .bordeaux {
@@ -415,6 +449,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #61082B;
+    border: 1px solid transparent;
+}
+
+.bordeaux:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #47031e;
 }
 
 .red {
@@ -422,6 +463,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #FF1C1C;
+    border: 1px solid transparent;
+}
+
+.red:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #d10101;
 }
 
 .darkblue {
@@ -429,6 +477,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #0D2481;
+    border: 1px solid transparent;
+}
+
+.darkblue:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #041761;
 }
 
 .lightblue {
@@ -436,6 +491,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #B4D0E7;
+    border: 1px solid transparent;
+}
+
+.lightblue:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #8dbbe0;
 }
 
 .yellow {
@@ -443,6 +505,13 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #FFD830;
+    border: 1px solid transparent;
+}
+
+.yellow:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #e6bb00;
 }
 
 .bloodred {
@@ -450,7 +519,15 @@ li, .top-menu {
     height: 250px;
     width: 250px;
     background-color: #D5001F;
+    border: 1px solid transparent;
 }
+
+.bloodred:hover {
+    transition: 1s ease;
+    border: 10px solid;
+    border-color: #9b0017;
+}
+
 #sponsor .w-30 img {
     position: relative;
     top: 50%;
@@ -467,6 +544,7 @@ li, .top-menu {
     left: 50px;
     max-width: 250px;
 }
+
 #sponsor hr {
     margin-top: 10%;
     margin-left: 50px;
@@ -479,6 +557,7 @@ article {
     font-size: 16px;
     font-style: normal;
 }
+
 address {
     margin-top: 20px;
     padding: 0 50px 0 50px;
@@ -493,17 +572,21 @@ address {
     font-weight: bolder;
     vertical-align: middle;
 }
+
 .tryfree {
     position: relative;
 }
+
 #sponsor .btn-white {
     padding: 10px 50px;
     color: black;
 }
+
 #sponsor .btn-white:hover {
     background-color: #0061FF;
     color: white;
 }
+
 .bg-height a {
     text-decoration: none;
     position: absolute;
@@ -517,17 +600,20 @@ address {
     background-color: white;
     padding-top: 500px;
 }
+
 #faq hr {
     border: 1px solid #DCDCDE;
     border-radius: 20px;
     width: 100%;
     margin: 20px 0;
 }
+
 #faq h3 {
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 40px;
 }
+
 #faq p {
     font-size: 20px;
     font-weight: bolder;
@@ -535,8 +621,8 @@ address {
 }
 
 #faq i {
-padding-left: 35%;
-font-size: 20px;
+    padding-left: 35%;
+    font-size: 20px;
 }
 
 /* Footer */
