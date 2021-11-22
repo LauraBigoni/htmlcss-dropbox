@@ -172,11 +172,20 @@ footer hr {
     text-decoration: none;
     list-style-type: none;
     color: black;
+    padding-bottom: 26px;
 }
 
 li, .top-menu {
     display: inline;
     padding: 0 20px;
+}
+
+.top-menu a:hover {
+    border-bottom: 2px solid #333;
+    border-radius: 1px;
+}
+.top-menu a.btn {
+    border: none;
 }
 
 /* ---jumbotron--- */
