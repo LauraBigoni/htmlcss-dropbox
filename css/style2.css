@@ -1,0 +1,273 @@
+/* Generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Utilities */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a  {
+    display: inline;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.col {
+    float: left;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-70 {
+    width: 70%;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #F5F5F5;
+}
+
+.btn-small {
+    padding: 8px 12px;
+}
+
+.btn-big {
+    padding: 15px 50px;
+}
+
+/* Header */
+/* ---logo--- */
+#nav-bar {
+    height: 80px;
+    line-height: 80px;
+    background-color: #C3F4FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    vertical-align: text-bottom;
+    padding-left: 20px;
+}
+
+#nav-bar ul {
+    display: inline;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+#nav-bar li, .main-menu li, a {
+    display: inline;
+    padding: 0 20px;
+    font-size: 16px;
+}
+/* ---jumbotron--- */
+#jumbotron {
+    height: 900px;
+    background-color: #C3F4FF;
+    position: relkative;
+}
+#jumbotron h1 {
+    padding: 300px 0 50px 150px;
+    font-weight: bold;
+    font-size: 70px;
+    color: #61082B;
+}
+
+img.calendar {
+    position: absolute;
+    width: 30%;
+    top: -420px;
+    left: 33%;
+    z-index: 2;
+}
+
+img.whatsapp {
+    position: absolute;
+    width: 15%;
+    top: 200px;
+    left: 200px;
+}
+
+img.email {
+    position: absolute;
+    width: 18%;
+    bottom: 280px;
+    right: 400px;
+}
+#jumbotron .w-50 p {
+    padding-left: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #61082B;
+}
+
+.fa-arrow-down {
+    padding-top: 50px;
+    font-size: 32px;
+    animation: bounce 0.5s ease infinite alternate-reverse;
+}
+@keyframes bounce { 
+    0% {
+        transform: translateY(30px);
+      }
+    100% {
+        transform: translateY(-20px);
+      }
+  } 
+img.jumbo {
+    width: 80%;
+    padding-bottom: 80px;
+}
+/* Main */
+.bg-bordeaux {
+    background-color: #61082B;
+}
+
+.bg-orchid {
+    background-color: #C3F4FF;
+}
+
+/* Section-big-pic */
+#pic-section h2 {
+    text-align: left;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top:200px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    color: #C3F4FF;
+}
+
+/* Section-main */
+#main-section {
+    color: #C3F4FF;
+}
+
+#main-section .w-50 {
+    padding: 0 50px;
+}
+
+#main-section h3,
+#work-section h3 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#main-section h4,
+#work-section h4 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#main-section p,
+#work-section p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+/* Section-work */
+#work h2 { 
+    text-align: left;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top:200px;
+    padding-left: 150px;
+    color: #61082B;
+}
+
+#work-section .w-50 {
+    padding: 0 60px;
+    color: #61082B;
+}
+
+/* ---Section-info */
+#info h2 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top:200px;
+    padding-left: 50px;
+    color: #61082B;
+
+}
+#info a {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+video {
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+/* Footer */
+footer {
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+
+footer hr {
+    margin-bottom: 30px;
+    width: 20%;
+    border: 1px solid white;
+}
+
+#bottom-menu li {
+    display: block;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+#bottom-menu h5 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 6rem;
+}
+
+.region-menu {
+    margin-top: 9rem;
+    color: #999999;
+}
