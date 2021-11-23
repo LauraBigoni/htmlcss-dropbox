@@ -649,7 +649,7 @@ address {
 
 /* ---FAQ section--- */
 #faq {
-    height: 650px;
+    height: 750px;
     background-color: white;
     padding-top: 500px;
 }
@@ -667,15 +667,47 @@ address {
     margin-bottom: 40px;
 }
 
-#faq p {
+#faq ul {
     font-size: 20px;
     font-weight: bolder;
     line-height: 60px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
 }
 
-#faq i {
+.fa-chevron-down {
     padding-left: 35%;
     font-size: 20px;
+}
+.fa-chevron-up {
+    position: relative;
+    bottom: 90px;
+    left: 52%;
+    font-size: 20px;
+}
+
+.main-faq > li:hover .fa-chevron-down {
+    display: none;
+}
+#faq .faq-menu li {
+    text-align: left;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#faq .content .main-faq ul.faq-menu li {
+    display: block;
+}
+
+ul.faq-menu {
+    display: none;
+}
+
+.main-faq > li:hover ul {
+    display: block;
 }
 
 /* Footer */
