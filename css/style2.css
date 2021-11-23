@@ -21,7 +21,7 @@ body {
     clear: both;
 }
 
-a  {
+a {
     display: inline;
     font-size: 18px;
     text-decoration: none;
@@ -87,6 +87,7 @@ a  {
 }
 
 #nav-bar ul {
+    cursor: pointer;
     display: inline;
     font-size: 18px;
     text-decoration: none;
