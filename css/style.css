@@ -245,55 +245,51 @@ ul.sub-menu li:hover{
 }
 
 @keyframes bounce { 
-  0% {
-      transform: translateY(70px);
-    }
-  100% {
-      transform: translateY(-20px);
-    }
+0% { transform: translateY(70px);}
+100% {transform: translateY(-20px);}
 } 
 
 /* Main */
 /* ---plan section--- */
- .full-page .container-small h2 {
+.full-page .container-small h2 {
     font-size: 40px;
     font-weight: 800;
     padding-bottom: 40px;
     margin-left: 20px;
- }
+}
 
- .full-page span:nth-child(2) {
+.full-page span:nth-child(2) {
     padding: 20px;
- }
+}
 
-  .circle-blue {
+.circle-blue {
     text-shadow: -1px 0 #0061FF, 0 1px #0061FF, 1px 0 #0061FF, 0 -1px #0061FF;
     color: #0061FF;
- }
+}
 
- .plan, .professional-plan, 
- .standard-plan, .advanced-plan {
+.plan, .professional-plan, 
+.standard-plan, .advanced-plan {
     margin-bottom: 30px;
     font-weight: 600;
- }
+}
 
- .plan {
+.plan {
     font-size: 18px;
- }
+}
 
- .container-small h3 {
+.container-small h3 {
     font-size: 18px;
     font-weight: normal;
- }
+}
 
- .full-page h4 {
+.full-page h4 {
     font-size: 24px;
     font-weight: 800;
 }
 
- .full-page .container-small .btn-blue {
+.full-page .container-small .btn-blue {
     padding: 10px 42px;
- }
+}
 
 .full-page .col-count {
     padding: 15px 28px;
@@ -412,15 +408,9 @@ ul.sub-menu li:hover{
 }
 
 /* ---operations section--- */
-.pic-col > img {
-    max-width: 100%;
-    height: auto;
-}
-
 .buisness > .col-count {
     border: none;
     line-height: 25px;
-    font-weight: 600;
 }
 .buisness h2 {
     padding-top: 10%;
@@ -431,20 +421,15 @@ ul.sub-menu li:hover{
 
 .buisness h4  {
     padding-bottom: 30px;
-}
-
-.text-col {
-    padding-bottom: 100px;
-    padding-left: 30px;
-}
-
-.pic-col {
-    padding-left: 30px;
-}
-
-.buisness h4 {
     font-size: 26px;
     font-weight: 800;
+}
+.buisness p {
+    padding-bottom: 50px;
+}
+
+img.pic {
+    max-width: 100%;
 }
 
 #link-blue h2 {
@@ -711,7 +696,7 @@ ul.faq-menu {
     display: block;
 }
 
-/* Footer */
+/* * Footer * */
 footer {
     margin-top: 500px;
     height: 600px;
