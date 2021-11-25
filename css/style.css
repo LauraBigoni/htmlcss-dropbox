@@ -240,13 +240,13 @@ ul.sub-menu li:hover{
     font-size: 50px;
     position: absolute;
     bottom: 200px;
-    left: 350px;
+    left: 250px;
     animation: bounce 0.5s ease infinite alternate-reverse;
 }
 
 @keyframes bounce { 
-0% { transform: translateY(-100px);}
-100% {transform: translateY(-50px);}
+0% { transform: translateY(50px);}
+100% {transform: translateY(-60px);}
 } 
 
 /* Main */

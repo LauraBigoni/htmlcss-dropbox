@@ -116,7 +116,7 @@ a {
 img.calendar {
     position: absolute;
     width: 30%;
-    top: -420px;
+    top: -380px;
     left: 33%;
     z-index: 2;
 }
@@ -125,14 +125,14 @@ img.whatsapp {
     position: absolute;
     width: 15%;
     top: 200px;
-    left: 200px;
+    left: 150px;
 }
 
 img.email {
     position: absolute;
     width: 18%;
-    bottom: 280px;
-    right: 400px;
+    bottom: 200px;
+    right: 350px;
 }
 #jumbotron .w-50 p {
     padding-left: 150px;
@@ -147,13 +147,10 @@ img.email {
     animation: bounce 0.5s ease infinite alternate-reverse;
 }
 @keyframes bounce { 
-    0% {
-        transform: translateY(30px);
-      }
-    100% {
-        transform: translateY(-20px);
-      }
-  } 
+0% {transform: translateY(30px);}
+100% {transform: translateY(-20px);}
+} 
+
 img.jumbo {
     width: 80%;
     padding-bottom: 80px;
