@@ -1,4 +1,4 @@
-/* Generics */
+/** Generics **/
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Utilities */
+/** Utils **/
 .container-big {
     max-width: 1400px;
     margin: 0 auto;
@@ -27,6 +27,7 @@ body {
     clear: both;
 }
 
+/** Layout **/
 .col {
     float: left;
 }
@@ -95,6 +96,7 @@ body {
     color: #637381;
 }
 
+/** Backgrund **/
 .bg-height {
     height: 400px;
 }
@@ -107,6 +109,7 @@ body {
     background-color: #B4D0E7;
 }
 
+ /** Buttons **/
 .btn {
     color: white;
 }
@@ -147,8 +150,8 @@ footer hr {
     width: 20%;
 }
 
-/* Header */
-/* ---logo--- */
+/** Header **/
+/** ---top navbar and logo--- **/
 #logo {
     vertical-align: text-bottom;
     padding-left: 20px;
@@ -221,7 +224,7 @@ ul.sub-menu li:hover{
     padding-top: 10px;
 }
 
-/* ---jumbotron--- */
+/** ---jumbotron--- **/
 #jumbotron {
     height: 800px;
     background-color: #B4D0E7;
@@ -249,8 +252,8 @@ ul.sub-menu li:hover{
 100% {transform: translateY(-60px);}
 } 
 
-/* Main */
-/* ---plan section--- */
+/** Main **/
+/** ---plan and team section--- **/
 .full-page .container-small h2 {
     font-size: 40px;
     font-weight: 800;
@@ -381,7 +384,7 @@ ul.sub-menu li:hover{
     margin-bottom: 150px;
 }
 
-/* ---partners section--- */
+/** ---partner section--- **/
 #partner {
     max-width: 100%;
     height: auto;
@@ -407,7 +410,7 @@ ul.sub-menu li:hover{
     padding-left: 80px;
 }
 
-/* ---operations section--- */
+/** ---buisness section--- **/
 .buisness > .col-count {
     border: none;
     line-height: 25px;
@@ -448,7 +451,7 @@ img.pic {
     margin-left: 20px;
 }
 
-/* ---sponsor section--- */
+/** ---sponsor section--- **/
 #sponsor {
     margin-top: 50px;
     max-height: 500px;
@@ -633,7 +636,7 @@ address {
     right: 0;
 }
 
-/* ---FAQ section--- */
+/** ---FAQ section--- **/
 #faq {
     height: 750px;
     background-color: white;
